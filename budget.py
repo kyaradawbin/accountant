@@ -28,5 +28,5 @@ def budget():
     total = round(housing + transport + food + savings + utilities + charity + entertainment + medical + gift, 2)
 
     print("Total spent:", total)
-    
+
 budget()
