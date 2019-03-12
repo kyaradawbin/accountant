@@ -25,7 +25,7 @@ def budget():
     print("Holidays/Gifts:", gift)
     print()
 
-    total = round(housing + transport + food + savings + utilities + charity + entertainment + medical + gift, 2)
+    total = housing + transport + food + savings + utilities + charity + entertainment + medical + gift
 
     print("Total spent:", total)
 
